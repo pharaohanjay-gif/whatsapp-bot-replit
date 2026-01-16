@@ -1,0 +1,19 @@
+{
+  "name": "whatsapp-bot-replit",
+  "version": "1.0.0",
+  "description": "WhatsApp Auto Post Bot for Replit",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "baileys": "^6.7.9",
+    "express": "^4.18.2",
+    "node-cron": "^3.0.3",
+    "pino": "^8.16.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

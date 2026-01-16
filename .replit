@@ -1,0 +1,12 @@
+run = "npm start"
+entrypoint = "index.js"
+
+[nix]
+channel = "stable-23_05"
+
+[env]
+XDG_CONFIG_HOME = "/home/runner/.config"
+
+[deployment]
+run = ["sh", "-c", "npm start"]
+deploymentTarget = "cloudrun"
